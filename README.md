@@ -53,9 +53,12 @@ git clone https://github.com/mahdijihad001/expanseTrackerBackend
 ### 2. Create a .env file and setup
 ---
 
-MONGO_URI=your mongoodb cluster url
-JWT_SECRAT=your jwt secrate
-CLINT_URL=frontend url
+MONGO_URI=your mongoodb cluster url  
+
+JWT_SECRAT=your jwt secrate  
+
+CLINT_URL=frontend url  
+
 PORT= Server port number
 
 ---
