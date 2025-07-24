@@ -46,10 +46,10 @@ connectDb();
 
 app.use("/Uploads" , express.static(path.join(__dirname , "Uploads")))
 
-// app.listen(port , () => {
-//     console.log(`Server Runing on port ${port}`);
-//     console.log(`http://localhost:${port}`);
-// });
+app.listen(port , () => {
+    console.log(`Server Runing on port ${port}`);
+    console.log(`http://localhost:${port}`);
+});
 
 
 
