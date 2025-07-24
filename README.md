@@ -17,17 +17,17 @@ A simple and powerful RESTful API backend for tracking income and expenses, buil
 ## 📁 Project Structure
 
 ```expense-tracker-backend/#
-├── src/#
-│   ├── config/#
-│   ├── controllers/#
-│   ├── Middleware/#
-│   ├── Models/#
-│   ├── Route/#
-├── server.js#
-├── .env#
-├── .gitignore#
-├── package.json#
-├── README.md#
+├── src/
+│   ├── config/
+│   ├── controllers/
+│   ├── Middleware/
+│   ├── Models/
+│   ├── Route/
+├── server.js
+├── .env
+├── .gitignore
+├── package.json
+├── README.md
 ```
 
 
@@ -53,7 +53,7 @@ git clone https://github.com/mahdijihad001/expanseTrackerBackend
 ---
 ### 2. Create a .env file and setup
 ---
-
+```
 MONGO_URI=your mongoodb cluster url  
 
 JWT_SECRAT=your jwt secrate  
@@ -61,15 +61,16 @@ JWT_SECRAT=your jwt secrate
 CLINT_URL=frontend url  
 
 PORT= Server port number
-
+```
 ---
 
 ### 3. open this project in vs code
 
 - Run the server
 ---
-
+```
 nodemon server.js
+```
 
 ---
 
