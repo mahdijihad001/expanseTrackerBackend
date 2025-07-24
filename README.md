@@ -16,7 +16,7 @@ A simple and powerful RESTful API backend for tracking income and expenses, buil
 
 ## 📁 Project Structure
 
-expense-tracker-backend/#
+```expense-tracker-backend/#
 ├── src/#
 │   ├── config/#
 │   ├── controllers/#
@@ -28,6 +28,7 @@ expense-tracker-backend/#
 ├── .gitignore#
 ├── package.json#
 ├── README.md#
+```
 
 
 ---
